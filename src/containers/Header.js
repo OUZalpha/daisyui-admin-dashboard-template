@@ -79,20 +79,20 @@ function Header(){
             </label>
 
 
-                {/* Notification icon */}
+                {/* Notification icon
                 <button className="btn btn-ghost ml-4  btn-circle" onClick={() => openNotification()}>
                     <div className="indicator">
                         <BellIcon className="h-6 w-6"/>
                         {noOfNotifications > 0 ? <span className="indicator-item badge badge-secondary badge-sm">{noOfNotifications}</span> : null }
                     </div>
-                </button>
+                </button> */}
 
 
                 {/* Profile icon, opening menu on click */}
                 <div className="dropdown dropdown-end ml-4">
                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
-                        <img src="https://placeimg.com/80/80/people" alt="profile" />
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALUAAACUCAMAAADifZgIAAAAY1BMVEX///8AAACjo6OysrLu7u74+PiUlJT7+/uqqqrZ2dk8PDy6urrj4+NMTEzT09Nra2seHh4kJCTMzMxUVFTFxcWDg4OampoNDQ1HR0cxMTF7e3spKSk3NzdgYGCJiYlzc3MVFRU4rAdKAAAD2UlEQVR4nO2ciZaiMBBFCQLKorLj0i7//5XTyHFam1aoqpBHz+T+APfkFJWlKnEcrfihW6jvFG7o6/2MVpL41FPuOMUJWu4FSbB+4dyyDmbp7e7fOLfsV2jFHnk04NwS5WjNJ/xghHNLMKPfMjmMlFbqMJvoTvrJ7jXFTLQ3KUFaqXSDFm4JM5K0UlmIVv4Mjx1RWqkdPEi8LVlaqa2HlV5WDGmlqiXUesGSVmqBlPZo6eOLFBkjnKDu2OKky4Zt3ZQoaZ8/1J+DjVqRlNyobklBg+2fBdJKnTGDHYqklcJM7K7QGrO1GbN7eUeEkPaE0kohZpqV2BoxrUuSdQdifpSGNSSwfeoWpk9mPmOHkomxIzWfsWP+yulOExu3XmiwNp9E5IkPMTtaa2v9nt/5N+ZXsfXV/HF2Ip9lMvOLPv8otj4C9mDvSkfjWJuXdsYWNV4TAKw3YmvE8bsvtoYcLUg3MxeEtJMLrTHFR49S+upTgA6DZcc4LkbaCSUb3ghWCasF1jVK2vE+2NIfwBJHzLY2v9F94FXvzRAnpLTj8X7ICFwmLTlHUBmslHSHk7RRqfoBenXmjFZuoZbSK7TwjWVA2fheA2zl/y8+5WxkNZ9+rfFFvBn04XzhX8Yc6jSX+Qz0jeVieLVdLGYS0g8kAy2fmQtvd/qR5M3Ktann6Xyj3Eb9k7Q02sKn8AG8+Hwpjvd/szkWl3MMXiuNw0/yMl65rruKyzyZWdqwWCwWi8VisfzTeGFeLtq1qITVosxDU0vvZVlXpx92LBzS6FTV5fQr8M1hJ2/keybbHSat8nq1niHuk9ZThUpY6x7lR7J6imMpP5A3pr4n0n9lcyMr5I6j0Bvfnuziw3gqjeGdcEtddE7ajqhy+hVGPjtNx1Siyzx0rlq0uZcB+WhoTiyNSyslHu3cbHh0pMI2HcZdYh3I7iN75lLeMydJ3jY1ufQR1H/ljYZ8+JO7vBWVD7uJVd6JKoHZxRpi8scdZh6R3rqUwuoiSfgNZHr44Ay2+fXHdxjrkeXUG65hInrZXXoDWgf0/S827XXQk5/8ioacPVWa/NrNFJBf0EEn6w5qyh7/7tSUHGjSokc29EF8roP0XNZ0EB/i2uDnmJaItspmtfrqh9g8zG9i1wutJR6/dOqgLaCstQRrbQ5rbQ5rbQ5rbQ5rbQ5rbQ5rbY7/wfp37sDyoaflzbCnFXmFbyjogvoWwwUtfIP6WIeG55zk0B+EwpbtOnZUaUhfyHcYfSL4yOY8QZOgDygjVnE3RBb/lVozO0BD5NH7lt2O4+HKd4GkGSesEHm7qQai4w/MikcapvETZQAAAABJRU5ErkJggg==" alt="profile" />
                         </div>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
